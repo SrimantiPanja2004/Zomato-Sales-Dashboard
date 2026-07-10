@@ -15,11 +15,23 @@ The **dashboard** was developed entirely in **Microsoft Excel** using **data cle
 ---
 ## 📂 Project Files
 
-### Cleaned Data
-- **Zomato_sales_dashboard.xlsx** – Contains the cleanned dataset, cleaned data, Pivot Tables, KPI calculations, and the final interactive dashboard.
+### 📄 Raw Dataset
+- **Zomato_Data.xlsx** – Original Zomato dataset used as the primary data source for this project.
 
-### Dashboard Image
+### 📊 Dashboard Workbook
+- **Zomato_sales_dashboard.xlsx** – Contains the cleaned dataset, Pivot Tables, KPI calculations, Pivot Charts, Slicers, and the final interactive dashboard.
+
+### 🖼️ Dashboard Image
 - **Zomato_Dashboard.png** – Preview of the final interactive dashboard.
 
-### Logo
+### 🍽️ Logo
 - **Zomato_logo.png** – Zomato logo used in the project documentation.
+---
+- ## 🧹 Data Cleaning Process
+
+Before building the dashboard, the raw dataset was cleaned and transformed to improve data quality and analysis.
+
+- **Removed duplicate records**.
+- **Handled missing or blank values**.
+- **Standardized date and numeric formats**.
+- **Extracted Month, Day, and Year from the Order Date column to perform date-wise analysis**.
